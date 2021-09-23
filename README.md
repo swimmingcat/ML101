@@ -28,3 +28,9 @@ Miniconda carries only essential libraries for python and we can manually instal
 ## Start Jupyter Notebook
 Within the activated environment, run `jupyter notebook`
 Check that you can import the libraries installed. We will script in the notebook.
+
+
+## Recommended Python IDE and editors
+vim, Sublime, PyCharm (free community version is sufficient).
+
+[Instruction for setting up PyCharm with AnaConda](https://docs.anaconda.com/anaconda/user-guide/tasks/pycharm/) 

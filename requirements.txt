@@ -1,0 +1,18 @@
+sklearn
+pandas
+numpy==1.19.5
+scikit-plot
+scikit-optimize
+matplotlib
+pyarrow
+shap
+xgboost==1.3.3
+# (mac user) you may need to run `brew install libomp` to support OpenMP
+
+torch==1.9.1
+tensorflow==2.6.0
+keras
+
+ipython
+jupyter
+
