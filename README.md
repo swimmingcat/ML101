@@ -9,9 +9,9 @@ Anaconda works like pyenv + virtualenv, where pyenv manages python version and v
 Miniconda carries only essential libraries for python and we can manually install the packages we need.
 
 - Download miniconda https://docs.conda.io/en/latest/miniconda.html
-    - After the installation, open a new terminal to test out!
+    - After the installation, open a new terminal to test out by typying `conda list`
 
-- Getting Started https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
+- [Getting Started](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) for your reference
     - Create new env with specified python version `conda create --name ml python=3.8`
     - Activate specified environment `conda activate ml`
     - Check python version `python --version`
@@ -20,9 +20,9 @@ Miniconda carries only essential libraries for python and we can manually instal
 - Install packages within the specified environment ((with ml environment activated))
     - You can use conda command to install the packages
     - Or you can use pip to install packages
-      - Within the activated environment, run `which -a pip` to get the pip path within the environment
-      - Run `the-path-to-the-pip/pip install -r requirements.txt` -- pip will insntall all the packages listed in requirements.txt
-      - Access requirements.txt in the repo 
+      - Within the activated environment, run `which -a pip`, you should see something like `xxxx/miniconda3/envs/ml/pip` which suggestes the pip is associated with the ml environment
+      - Run `pip install -r requirements.txt` and pip will insntall all the packages listed in requirements.txt
+      - requirements.txt can be found in this repo 
 
 
 ## Start Jupyter Notebook
