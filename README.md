@@ -22,7 +22,8 @@ Miniconda carries only essential libraries for python and we can manually instal
     - Or you can use pip to install packages
       - Within the activated environment, run `which -a pip`, you should see something like `xxxx/miniconda3/envs/ml/pip` which suggestes the pip is associated with the ml environment
       - Run `pip install -r requirements.txt` and pip will insntall all the packages listed in requirements.txt
-      - requirements.txt can be found in this repo 
+      - requirements.txt can be found in this repo
+      - You may run into issues running xgboost if it's installed via pip. In that case, pip uninstall xgboost and install it via `conda install -c conda-forge xgboost` instead
 
 
 ## Start Jupyter Notebook
