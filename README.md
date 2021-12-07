@@ -13,6 +13,7 @@ Miniconda carries only essential libraries for python and we can manually instal
 
 - [Getting Started](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) for your reference
     - Create new env with specified python version `conda create --name ml python=3.8`
+    - List all environments in conda `conda env list`
     - Activate specified environment `conda activate ml`
     - Check python version `python --version`
 - [Conda Cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
